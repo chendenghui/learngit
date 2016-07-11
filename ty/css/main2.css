@@ -1,0 +1,79 @@
+/*body,html {
+    width: 100%;
+    height: 100%;
+
+}*/
+
+.container {
+    /*background-color: green;*/
+    width: 1000px;
+    min-height: 530px;
+    margin: 50px auto;
+}
+.search_content {
+    margin: 0;
+}
+.intro {
+    width: 242px;
+    /*height: 482px;*/
+    float: left;
+    /*background-color: red;*/
+    display: inline;
+    margin: 4px;
+}
+#bug {
+    display: inline-block;
+    width: 65px;
+}
+ .intro .downlond {
+     display: block;
+     text-align: center;
+     background: #0fb422;
+     font-size: 14px;
+     line-height: 25px;
+     color: #fff;
+ }
+ .intro span a {
+      color: #fff;
+ }
+ .intro ul {
+     padding: 10px;
+     background-color: #e8e8e8;
+     line-height: 25px;
+ }
+ .text li {
+     position: relative;
+ }
+.game-erweima1 {
+   width: 35px;
+   height: 35px;
+   background: #e8e8e8;
+   border: 1px solid gray;
+   position: absolute;
+   left: 190px;
+   top: 0px; }
+  .game-erweima1 .img {
+     display: inline-block;
+     margin: 4px; }
+    .erweimayy1 {
+        position:absolute;
+        top:-170px;left:-170px;
+        height:182px;width:182px;
+        z-index:1000;
+        display:none;
+    }
+
+    .game-erweima1:hover > .erweimayy1 {
+       display: block; }
+  .game-erweima .imgDa {
+     z-index: 200;
+     width: 182px;
+     height: 182px;
+     position: absolute;
+     top: -225px;
+     left: -58px;
+     display: none; }
+
+.clear {
+    clear: both;
+}

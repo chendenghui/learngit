@@ -1,0 +1,227 @@
+.container {
+  margin: 0 auto; }
+  .container .banner {
+    width: 1000px;
+    height: 398px;
+    margin: 0 auto; }
+
+.swiper-container {
+  width: 1000px;
+  height: 365px; }
+  .swiper-container .swiper_wrapper .swiper-slide {
+    position: relative;
+    width: 100%;
+    height: 100%; }
+    .swiper-container .swiper_wrapper .swiper-slide .bgImg {
+      width: 1000px;
+      position: absolute;
+      top: 110px;
+      left: 100px; }
+
+.code {
+  display: inline-block;
+  position: absolute;
+  top: 210px;
+  left: 95px;
+  z-index: 10;
+  width: 250px;
+  height: 70px;
+  color: white; }
+  .code :first-child {
+    display: inline-block;
+    margin-bottom: 15px;
+    position: relative; }
+  .code a {
+    color: white;
+    text-decoration: underline;
+    margin: 10px; }
+  .code .game-erweima {
+    width: 35px;
+    height: 35px;
+    border: 1px solid gray;
+    position: absolute;
+    left: 150px;
+    top: 45px; }
+    .code .game-erweima .img {
+      display: inline-block;
+      margin: 4px; }
+      .code .game-erweima .img:hover ~ .imgDa {
+        display: block; }
+    .code .game-erweima .imgDa {
+      z-index: 200;
+      width: 182px;
+      height: 182px;
+      position: absolute;
+      top: -225px;
+      left: -58px;
+      display: none; }
+
+.video {
+  width: 472px;
+  height: 308px;
+  position: absolute;
+  top: 35px;
+  left: 497px;
+  opacity: 0.5; }
+  .video:hover a {
+    display: block; }
+  .video a {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 472px;
+    height: 308px;
+    z-index: 500;
+    display: block; }
+    .video a img {
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      z-index: 200; }
+
+.main {
+  width: 1000px;
+  height: 379px;
+  margin: auto; }
+  .main .main_left, .main .main_left .ul_news {
+    width: 456px;
+    height: 100%;
+    float: left; }
+    .main .main_left .ul_news {
+      border: 1px solid  #c3c3c3; }
+      .main .main_left .ul_news .item_news .title_news, .main .main_left .ul_news .item_news .title_news a {
+        width: 456px;
+        height: 37px; }
+        .main .main_left .ul_news .item_news .title_news a {
+          border: 1px solid  #c3c3c3;
+          margin-left: -1px;
+          margin-top: -1px;
+          display: inline-block;
+          background: #f5f3f3 url(../img/news_hover_open.jpg) no-repeat 0px 0px;
+          color: #247eca; }
+          .main .main_left .ul_news .item_news .title_news a i {
+            display: block;
+            width: 360px;
+            float: left;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            -o-text-overflow: ellipsis;
+            overflow: hidden;
+            margin-left: 20px;
+            height: 37px;
+            line-height: 37px; }
+          .main .main_left .ul_news .item_news .title_news a span {
+            display: block;
+            height: 37px;
+            line-height: 37px;
+            font-style: italic; }
+      .main .main_left .ul_news .item_news .container_news {
+        display: none; }
+        .main .main_left .ul_news .item_news .container_news .container_news_inner {
+          width: 426px;
+          height: 185px;
+          margin-top: 14px;
+          margin-left: 14px; }
+          .main .main_left .ul_news .item_news .container_news .container_news_inner .container_news_Img {
+            display: inline-block;
+            width: 120px;
+            height: 170px; }
+          .main .main_left .ul_news .item_news .container_news .container_news_inner .container_news_text {
+            width: 290px;
+            height: 132px;
+            display: inline-block;
+            float: right;
+            text-indent: 2em; }
+            .main .main_left .ul_news .item_news .container_news .container_news_inner .container_news_text .more {
+              font-size: 14px;
+              display: inline-block;
+              background: url(../img/more.jpg) 0 center no-repeat; }
+  .main .main_right {
+    width: 532px;
+    height: 100%;
+    float: right; }
+    .main .main_right .tab {
+      width: 100%;
+      height: 87px; }
+      .main .main_right .tab .tab_button {
+        width: 19px;
+        height: 80px;
+        float: left;
+        background: url(../img/next-horizontal.png) 0 0 no-repeat; }
+      .main .main_right .tab .tab_button_left {
+        background: url(../img/prev-horizontal.png) -97px 0 no-repeat; }
+      .main .main_right .tab .tab_wrapper {
+        width: 493px;
+        height: 87px;
+        float: left;
+        overflow: hidden;
+        position: relative; }
+        .main .main_right .tab .tab_wrapper .tab_ul {
+          width: 1000px;
+          transition: 0.5s;
+          position: absolute;
+          top: 0;
+          left: 0px; }
+          .main .main_right .tab .tab_wrapper .tab_ul .tab_li {
+            width: 162px;
+            height: 87px;
+            margin: 0 1px;
+            float: left; }
+    .main .main_right .kefu {
+      margin-top: 10px; }
+    .main .main_right .information {
+      width: 100%;
+      height: 210px;
+      position: relative;
+      background: url(../img/img_bg.jpg) 0 0 no-repeat; }
+      .main .main_right .information .information_img {
+        width: 209px;
+        height: 180px;
+        position: absolute;
+        top: 15px;
+        left: 20px; }
+        .main .main_right .information .information_img img {
+          width: 209px;
+          height: 180px; }
+      .main .main_right .information .IntroductionList {
+        width: 286px;
+        height: 210px;
+        position: absolute;
+        top: 0px;
+        left: 245px; }
+        .main .main_right .information .IntroductionList .IntroductionList_item {
+          width: 271px;
+          height: 35px;
+          line-height: 34px;
+          font-size: 14px;
+          border-bottom: 1px dotted #cfcfcf;
+          margin: 0 0 5px 15px; }
+          .main .main_right .information .IntroductionList .IntroductionList_item a {
+            height: 35px;
+            line-height: 35px;
+            background: url(../img/news_hover.gif) 0px -21px no-repeat;
+            padding: 0 0 0 10px; }
+        .main .main_right .information .IntroductionList .Int_li1 {
+          position: relative;
+          left: -16px;
+          width: 270px;
+          height: 90px;
+          background: url(../img/imgright_bg.gif) right bottom no-repeat;
+          background-size: 120% 100%;
+          border-bottom: 0px dotted #cfcfcf; }
+          .main .main_right .information .IntroductionList .Int_li1 .gl {
+            background: none;
+            height: 35px;
+            line-height: 35px;
+            padding-left: 10px;
+            color: #247eca; }
+          .main .main_right .information .IntroductionList .Int_li1 p a {
+            background: none;
+            font-size: 12px;
+            display: block;
+            line-height: 22px;
+            padding: 0 0 0 5px; }
+
+/*# sourceMappingURL=main.css.map */

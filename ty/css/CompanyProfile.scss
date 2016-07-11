@@ -1,0 +1,76 @@
+html, body {
+	font: 14px/2.0 Microsoft YaHei,simsun, Arial, sans-serif;
+    color: #444;
+    line-height: 25px;
+}
+    .container {
+    width: 1000px;
+	// height: 1000px;
+    margin: 0 auto;
+
+    .cp_title {
+    	   width: 1000px;
+    	   height: 39px;
+    	   background: url(../img/tabbg.jpg) repeat-x ;
+    	   background-color: #fff;
+    	   border: 1px solid #999;
+    	   border-bottom:0px ;
+    	   .cp_title_li {
+    	   	display: inline-block;
+    	   	float: left;
+    	   	width: 190px;
+    	   	height: 39px;
+    	   	text-align: center;
+    	   	vertical-align: middle;
+    	   	a {
+    	   		line-height: 39px;
+    	   	}
+    	   }
+    	   .active {
+               background: url(../img/tabcbg.jpg) top right no-repeat;
+           }
+    }
+
+    .cp_container {
+		&::after {clear:both;content:'.';display:block;width: 0;height: 0;visibility:hidden;}
+
+        float: left;
+    	width: 1000px;
+    	min-height: 540px;
+    	border: 1px solid #999;
+       	border-top: 0px;
+		// margin-bottom: 40px;
+    	   .cp_container_li {
+    	   	   display: none;
+    	   	   .inner {
+				   &:after {clear:both;content:'.';display:block;width: 0;height: 0;visibility:hidden;}
+
+    	   	   	   padding: 20px 50px;
+    	   	   	   p {
+    	   	   	   	text-indent:2em;
+	       	   	   	-webkit-margin-before: 1em;
+	                -webkit-margin-after: 1em;
+	                -webkit-margin-start: 0px;
+	                -webkit-margin-end: 0px;
+    	   	   	   }
+    	   	   	   img {
+    	   	   	   	display: block;
+    	   	   	   	margin: 0 auto;
+    	   	   	   }
+    	   	   	   &>div {
+    	   	   	   	 text-align: center;
+    	   	   	   }
+    	   	   }
+    	   }
+    	   .item4 {
+    	   	   p {
+    	   	   	   text-indent: 0em;
+    	   	   }
+    	   }
+
+    }
+}
+    //百度地图
+    #dituContent {margin: 0 auto;}
+    .iw_poi_title {color:#CC5522;font-size:14px;font-weight:bold;overflow:hidden;padding-right:13px;white-space:nowrap}
+    .iw_poi_content {font:12px arial,sans-serif;overflow:visible;padding-top:4px;white-space:-moz-pre-wrap;word-wrap:break-word}
